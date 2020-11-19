@@ -1,0 +1,12 @@
+background_b: 255
+background_g: 86
+background_r: 150
+rosdistro: 'melodic
+
+  '
+roslaunch:
+  uris: {host_luis_latitude_e6530__46091: 'http://luis-Latitude-E6530:46091/'}
+rosversion: '1.14.3
+
+  '
+run_id: 8ad551b4-8fe1-11ea-bcec-3ca9f48b757c

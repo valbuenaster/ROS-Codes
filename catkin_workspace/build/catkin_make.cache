@@ -1,0 +1,2 @@
+novice_tutorials:pioneer2dx_ros
+-DCATKIN_DEVEL_PREFIX=/home/luis/catkin_workspace/devel -DCMAKE_INSTALL_PREFIX=/home/luis/catkin_workspace/install -G Unix Makefiles

@@ -1,0 +1,82 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <world name="W4P_2DX">
+
+    <!-- A global light source -->
+    <include>
+        <uri>model://sun</uri>
+    </include>
+
+    <!-- A ground plane -->
+    <include>
+        <uri>model://ground_plane</uri>
+        <pose>0 0 0 0 0 0</pose>
+    </include>
+
+    <include>
+        <uri>model://Room_Maze_Luis</uri>
+        <pose>0 -0.5 0 0 0 0</pose>
+    </include>
+
+    <!-- The pioneer2DX -->
+    <model name="my_Pioneer2DX">
+              <pose>0 0 0 0 0 0</pose>
+        <include>
+            <uri>model://pioneer2dx</uri>
+        </include>
+
+        <!-- Attach the plugin to this model -->
+        <plugin name="my_pioneer2dx_plugin" filename="/home/luis/catkin_workspace/devel/lib/libmy_pioneer2dx_plugin.so">
+        </plugin>
+
+        <!--model name="my_velodyne">
+            <include>
+              <uri>model://velodyne_hdl32</uri>
+              <pose>0 0 0.35 0 0 0</pose>
+            </include>
+
+            <plugin name="velodyne_control" filename="/home/luis/catkin_workspace/devel/lib/libvelodyne_plugin.so">
+                <velocity>0.0</velocity>
+            </plugin>
+            <joint name="velodyne_hdl32_joint" type="fixed">
+              <child>velodyne_hdl-32::base</child>
+              <parent>pioneer2dx::chassis</parent>
+            </joint>
+        </model-->
+
+        <model name="hokuyo_sensor">
+            <include>
+              <uri>model://my_hokuyo</uri>
+              <pose>0 0 0.35 0 0 0</pose>
+            </include>
+            <joint name="hokuyo_joint" type="fixed">
+              <child>hokuyo::link</child>
+              <parent>pioneer2dx::chassis</parent>
+            </joint>
+
+            <!--plugin name="my_hokuyo_plugin" filename="/home/luis/catkin_workspace/devel/lib/libmy_hokuyo_plugin.so"PLUGIN DEFINED ON GAZEBO MODELS LIBRARY>
+            </plugin-->
+        </model>
+
+        <model name="my_GPS_IMU_Sensor">
+            <include>
+                <uri>model://GPS_IMU</uri>
+                <pose>0.1 0.0 0.275 0.0 1.57079 0</pose>
+            </include>
+            <joint name="GPS_IMU_joint" type="fixed">
+                <child>GPS_IMU::GPS_sensor</child>
+                <parent>pioneer2dx::chassis</parent>
+            </joint>
+
+            <!--plugin name="my_gps_plugin" filename="/home/luis/catkin_workspace/devel/lib/libmy_gps_plugin.so"PLUGIN DEFINED ON GAZEBO MODELS LIBRARY>
+            </plugin-->
+
+        </model>
+
+    </model>
+
+    <plugin name="pose_report" filename="/home/luis/catkin_workspace/devel/lib/libpose_plugin.so">
+    </plugin>
+
+  </world>
+</sdf>

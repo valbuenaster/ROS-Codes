@@ -1,0 +1,6 @@
+roscore
+//open roscore first
+
+gazebo --verbose -u Pioneer2DX.world
+//--verbose output all status on command prompt and
+//-u paused

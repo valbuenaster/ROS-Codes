@@ -1,0 +1,23 @@
+entity_name: "my_Pioneer2DX::my_GPS_IMU_Sensor::GPS_IMU::IMU_sensor"
+orientation {
+  x: 0
+  y: 0
+  z: 0
+  w: 1
+}
+angular_velocity {
+  x: 0
+  y: 0
+  z: 0
+}
+linear_acceleration {
+  x: 4.1108449977400596e-11
+  y: 0
+  z: 0
+}
+
+stamp {
+  sec: 109
+  nsec: 247000000
+}
+

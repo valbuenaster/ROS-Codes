@@ -1,0 +1,95 @@
+time {
+  sec: 440
+  nsec: 104000000
+}
+scan {
+  frame: "my_Pioneer2DX::my_velodyne::velodyne_hdl-32::top"
+  world_pose {
+    position {
+      x: 0.536101188681601
+      y: 0.081294355160503956
+      z: 0.44080807744402817
+    }
+    orientation {
+      x: 0.70628788852879709
+      y: 0.0333246413924012
+      z: 0.033316112620081051
+      w: 0.7063546725501908
+    }
+  }
+  angle_min: -0.535292
+  angle_max: 0.186227
+  angle_step: 0.023274806451612905
+  range_min: 0.05
+  range_max: 70
+  count: 32
+  vertical_angle_min: 0
+  vertical_angle_max: 0
+  vertical_angle_step: nan
+  vertical_count: 1
+  ranges: 0.84615299512034481
+  ranges: 0.9263508007771496
+  ranges: 0.92107904556060161
+  ranges: 0.96673602683095994
+  ranges: 1.0162281994772751
+  ranges: 1.1006332049787215
+  ranges: 1.1386908614813904
+  ranges: 1.2454268994734883
+  ranges: 1.3222669848927626
+  ranges: 1.3528714054039097
+  ranges: 1.3493983694057661
+  ranges: 1.3350759558148764
+  ranges: 1.3165598117302366
+  ranges: 1.329237058745534
+  ranges: 1.3028553952120421
+  ranges: 1.3024754782954695
+  ranges: 1.3052756391022957
+  ranges: 1.3069972296827741
+  ranges: 1.3038564564666779
+  ranges: 1.2773654870713986
+  ranges: 1.2546310954442628
+  ranges: 1.2503571865410643
+  ranges: 1.2920339940000025
+  ranges: 1.255162880657301
+  ranges: 1.2979465560755596
+  ranges: 1.2416993276254535
+  ranges: 1.2981068132319111
+  ranges: 1.2729189225914939
+  ranges: 1.2742361787892347
+  ranges: 1.2973794959904059
+  ranges: 1.2976692423788989
+  ranges: 1.3365010957799734
+  intensities: 0
+  intensities: 0
+  intensities: 0
+  intensities: 0
+  intensities: 0
+  intensities: 0
+  intensities: 0
+  intensities: 0
+  intensities: 0
+  intensities: 0
+  intensities: 0
+  intensities: 0
+  intensities: 0
+  intensities: 0
+  intensities: 0
+  intensities: 0
+  intensities: 0
+  intensities: 0
+  intensities: 0
+  intensities: 0
+  intensities: 0
+  intensities: 0
+  intensities: 0
+  intensities: 0
+  intensities: 0
+  intensities: 0
+  intensities: 0
+  intensities: 0
+  intensities: 0
+  intensities: 0
+  intensities: 0
+  intensities: 0
+}
+

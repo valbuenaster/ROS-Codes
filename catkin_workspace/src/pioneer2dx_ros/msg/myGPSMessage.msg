@@ -1,0 +1,9 @@
+string gpsOwner  
+float64 sec
+float64 nsec
+float64 latitude_deg
+float64 longitude_deg
+float64 altitude
+float64 velocity_east
+float64 velocity_north
+float64 velocity_up

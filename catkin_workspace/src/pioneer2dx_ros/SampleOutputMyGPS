@@ -1,0 +1,12 @@
+time {
+  sec: 664
+  nsec: 209000000
+}
+link_name: "my_Pioneer2DX::my_GPS_IMU_Sensor::GPS_IMU::GPS_sensor"
+latitude_deg: -1.2001349576631516e-06
+longitude_deg: -1.6581132632993567e-06
+altitude: 0.27495310455560684
+velocity_east: 0.00065912652479902586
+velocity_north: -0.00026604825938800674
+velocity_up: -0.0009084883857738503
+

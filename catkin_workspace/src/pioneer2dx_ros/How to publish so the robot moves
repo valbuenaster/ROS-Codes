@@ -1,0 +1,1 @@
+rostopic pub -1 /my_Pioneer2DX/wheels_velocity std_msgs/Float64MultiArray "{layout: {dim: [{label: '', size: 2, stride: 0}], data_offset: 0}, data: [-2.0, -2.0]}"
